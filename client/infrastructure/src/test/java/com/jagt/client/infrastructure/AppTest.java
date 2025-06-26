@@ -1,4 +1,4 @@
-package com.jagt.client.application;
+package com.jagt.client.infrastructure;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

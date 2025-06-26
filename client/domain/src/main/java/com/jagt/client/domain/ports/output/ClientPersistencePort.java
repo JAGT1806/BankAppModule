@@ -7,7 +7,8 @@ import java.util.Optional;
 
 public interface ClientPersistencePort {
     Optional<Client> findById(Long id);
-    List<Client> findAll();
+    List<Client> findAll(int offset, int limit);
     Client save(Client client);
     void deleteById(Long id);
+    long count();
 }
