@@ -1,0 +1,13 @@
+package com.jagt.bankappmodule;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BankAppModuleApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(BankAppModuleApplication.class, args);
+	}
+
+}
