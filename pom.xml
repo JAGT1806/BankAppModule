@@ -18,6 +18,9 @@
 
     <modules>
         <module>bootstrap</module>
+        <module>common/domain</module>
+        <module>common/application</module>
+        <module>common/infrastructure</module>
     </modules>
 
     <name>BankAppModule</name>
