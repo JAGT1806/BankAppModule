@@ -32,6 +32,7 @@ public class CreateClientUseCaseImpl implements CreateClientUseCase {
 
         Client client = Client.builder()
                 .identificationType(command.identificationType())
+                .identificationNumber(command.identificationNumber())
                 .name(UserNameValue.builder()
                         .firstName(command.firstName())
                         .secondName(command.secondName())

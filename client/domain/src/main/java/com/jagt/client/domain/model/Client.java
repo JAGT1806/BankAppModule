@@ -17,6 +17,7 @@ import java.time.LocalDateTime;
 public class Client {
     private Long id;
     private IdentificationType identificationType;
+    private String identificationNumber;
     private UserNameValue name;
     private String email;
     private LocalDate birthDate;

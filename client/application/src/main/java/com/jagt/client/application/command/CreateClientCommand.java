@@ -6,6 +6,7 @@ import java.time.LocalDate;
 
 public record CreateClientCommand(
         IdentificationType identificationType,
+        String identificationNumber,
         String firstName,
         String secondName,
         String firstLastName,
