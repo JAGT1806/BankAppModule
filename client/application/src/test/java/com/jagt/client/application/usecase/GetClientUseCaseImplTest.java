@@ -1,6 +1,5 @@
 package com.jagt.client.application.usecase;
 
-import com.jagt.client.application.ports.input.GetClientUseCase;
 import com.jagt.client.application.query.GetClientsQuery;
 import com.jagt.client.domain.exception.ClientNotFoundException;
 import com.jagt.client.domain.model.Client;
@@ -29,9 +28,9 @@ class GetClientUseCaseImplTest {
     private GetClientUseCaseImpl getClientUseCase;
 
     private Client client;
-    private final Long CLIENT_ID = 1L;
-    private final int OFFSET = 0;
-    private final int LIMIT = 10;
+    private static final Long CLIENT_ID = 1L;
+    private static final int OFFSET = 0;
+    private static final int LIMIT = 10;
 
     @BeforeEach
     void setup() {
