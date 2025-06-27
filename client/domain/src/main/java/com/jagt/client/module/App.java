@@ -1,4 +1,4 @@
-package com.jagt.common.domain;
+package com.jagt.client.module;
 
 /**
  * Hello world!

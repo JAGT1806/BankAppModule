@@ -21,6 +21,9 @@
         <module>common/domain</module>
         <module>common/application</module>
         <module>common/infrastructure</module>
+        <module>client/domain</module>
+        <module>client/application</module>
+        <module>client/infrastructure</module>
     </modules>
 
     <name>BankAppModule</name>
