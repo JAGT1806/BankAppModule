@@ -30,7 +30,7 @@
     </modules>
 
     <name>BankAppModule</name>
-    <description>BankAppModule</description>
+    <description>Bank Application with modular hexagonal architecture</description>
 
     <url/>
 
