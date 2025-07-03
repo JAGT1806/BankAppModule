@@ -24,10 +24,13 @@
         <module>client/domain</module>
         <module>client/application</module>
         <module>client/infrastructure</module>
+        <module>account/domain</module>
+        <module>account/application</module>
+        <module>account/infrastructure</module>
     </modules>
 
     <name>BankAppModule</name>
-    <description>BankAppModule</description>
+    <description>Bank Application with modular hexagonal architecture</description>
 
     <url/>
 

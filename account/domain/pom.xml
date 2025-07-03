@@ -8,11 +8,11 @@
         <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <groupId>com.jagt.client.application</groupId>
-    <artifactId>client.application</artifactId>
+    <groupId>com.jagt.account.domain</groupId>
+    <artifactId>account.domain</artifactId>
     <packaging>jar</packaging>
 
-    <name>client.application</name>
+    <name>account.domain</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -23,16 +23,6 @@
         <dependency>
             <groupId>com.jagt.client.domain</groupId>
             <artifactId>client.domain</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.jagt.common.domain</groupId>
-            <artifactId>common.domain</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.jagt.account.domain</groupId>
-            <artifactId>account.domain</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>

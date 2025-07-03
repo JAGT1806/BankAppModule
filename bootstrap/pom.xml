@@ -36,6 +36,11 @@
             <artifactId>client.infrastructure</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.jagt.account.infrastructure</groupId>
+            <artifactId>account.infrastructure</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>

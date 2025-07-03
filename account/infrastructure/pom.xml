@@ -8,11 +8,11 @@
         <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <groupId>com.jagt.client.application</groupId>
-    <artifactId>client.application</artifactId>
+    <groupId>com.jagt.account.infrastructure</groupId>
+    <artifactId>account.infrastructure</artifactId>
     <packaging>jar</packaging>
 
-    <name>client.application</name>
+    <name>account.infrastructure</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -21,8 +21,13 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.jagt.client.domain</groupId>
-            <artifactId>client.domain</artifactId>
+            <groupId>com.jagt.account.application</groupId>
+            <artifactId>account.application</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.jagt.client.infrastructure</groupId>
+            <artifactId>client.infrastructure</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
@@ -31,9 +36,8 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>com.jagt.account.domain</groupId>
-            <artifactId>account.domain</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
     </dependencies>
 </project>
