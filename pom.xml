@@ -27,6 +27,9 @@
         <module>account/domain</module>
         <module>account/application</module>
         <module>account/infrastructure</module>
+        <module>transaction/domain</module>
+        <module>transaction/application</module>
+        <module>transaction/infrastructure</module>
     </modules>
 
     <name>BankAppModule</name>
