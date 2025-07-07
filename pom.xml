@@ -85,6 +85,12 @@
             <artifactId>mapstruct</artifactId>
             <version>1.6.2</version>
         </dependency>
+        <!-- Spring docs -->
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+            <version>2.8.6</version>
+        </dependency>
         <!-- Testing -->
         <dependency>
             <groupId>org.springframework.boot</groupId>

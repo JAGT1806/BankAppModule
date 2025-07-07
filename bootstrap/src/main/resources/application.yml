@@ -11,4 +11,11 @@ spring:
     hibernate:
       ddl-auto: update
   jackson:
-    default-property-inclusion: non_empty
+    default-property-inclusion: non_null
+
+springdoc:
+  api-docs:
+    enabled: true
+    version: openapi_3_0
+  swagger-ui:
+    enabled: true
