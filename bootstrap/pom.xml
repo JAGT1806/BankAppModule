@@ -5,6 +5,7 @@
         <groupId>com.jagt</groupId>
         <artifactId>BankAppModule</artifactId>
         <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <groupId>com.jagt.bootstrap</groupId>
@@ -39,6 +40,11 @@
         <dependency>
             <groupId>com.jagt.account.infrastructure</groupId>
             <artifactId>account.infrastructure</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.jagt.transaction.infrastructure</groupId>
+            <artifactId>transaction.infrastructure</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
